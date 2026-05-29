@@ -1,0 +1,19 @@
+# requirements.txt
+# Replication environment for:
+#   "Structural Traps in Multidimensional Labor Poverty in Brazil:
+#    A Granular Markovian Analysis (2019–2025)"
+#
+# Install with:
+#   pip install -r requirements.txt
+#
+# Note: xlrd is required to parse the IBGE dictionary files (.xls format).
+#       openpyxl is optional but recommended for newer Excel formats.
+#       All versions listed are the ones used to produce the paper results.
+
+numpy>=1.24,<3
+pandas>=2.0,<4
+scipy>=1.10,<2
+matplotlib>=3.7,<4
+seaborn>=0.12,<1
+xlrd>=2.0,<3
+openpyxl>=3.1,<4
